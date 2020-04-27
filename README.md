@@ -25,7 +25,8 @@ https://blog.csdn.net/baidu_38116275/article/details/79889936 </br>
 https://jingyan.baidu.com/article/0aa2237511ba0088cc0d64de.html</br>
 12：idea激活</br>
 https://shimo.im/docs/WgCXhcrkWy8HVCVG</br>
-
+14:idea maven 配置
+https://www.cnblogs.com/Silencepeng/p/7444012.html
 ---------------------------------------------------------------mysql--------------------------------------------------------------</br>
  //新建用户 admin 密码为123456</br>
 create user admin identified by '123456';</br>
