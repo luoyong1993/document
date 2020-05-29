@@ -56,9 +56,48 @@ mysqldump -u root -p database >database.sql
 https://www.jianshu.com/p/9fd8533638ad</br>
 
 ---------------------------------------------------------------REDIS--------------------------------------------------------------</br>
-1:redis基本操作，基本命令
-https://www.runoob.com/redis/redis-strings.html
-2：redis服务器安装详细步骤
-https://www.cnblogs.com/happywish/p/10944253.html
+1:redis基本操作，基本命令</br>
+https://www.runoob.com/redis/redis-strings.html</br>
+2：redis服务器安装详细步骤</br>
+https://www.cnblogs.com/happywish/p/10944253.html</br>
 
+---------------------------------------------------------------GIT--------------------------------------------------------------</br>
+1:git 用命令下载代码到本地</br>
+https://blog.csdn.net/jxg1473819657/article/details/83656939</br>
+2：github上拉取代码执行 npm install报错code：128</br>
+https://www.cnblogs.com/minutes/p/11692474.html</br>
+3：git拉取代码出现Unpacking objects
+https://blog.csdn.net/weixin_39386145/article/details/88905238</br>
 
+---------------------------------------------------------------MYSQL--------------------------------------------------------------</br>
+1：根据日期范围显示该范围内的所有日期（统计场景用的多）
+select a.assigned_date AS "bizDate",b.id,b.umid,b.gameName,b.logo
+		FROM
+		(
+		select date_format(assigned_date,'%Y-%m-%d') assigned_date
+		from
+		(select adddate('2011-01-01',t3.i*1000 + t2.i*100 + t1.i*10 + t0.i) assigned_date
+		from
+		(select 0 i union select 1 union select 2 union select 3 union select 4 union select 5 union select 6 union select 7 union select 8 union select 9) t0,
+		(select 0 i union select 1 union select 2 union select 3 union select 4 union select 5 union select 6 union select 7 union select 8 union select 9) t1,
+		(select 0 i union select 1 union select 2 union select 3 union select 4 union select 5 union select 6 union select 7 union select 8 union select 9) t2,
+		(select 0 i union select 1 union select 2 union select 3 union select 4 union select 5 union select 6 union select 7 union select 8 union select 9) t3
+		) c
+		where assigned_date between DATE_FORMAT(#{startDate}, '%Y-%m-%d') and DATE_FORMAT(#{endDate}, '%Y-%m-%d')
+		)a
+		cross join
+		(
+		select game.id AS "id",game.umid AS "umid",game.name AS "gameName",game.logo AS "logo" FROM ly_biz_game game
+
+		<where>
+			AND game.channel_type=#{channelType}
+			AND game.del_flag=0
+			<if test="gameName != null and gameName != ''">
+				AND game.name LIKE
+				<if test="dbName == 'oracle'">'%'||#{gameName}||'%'</if>
+				<if test="dbName == 'mssql'">'%'+#{gameName}+'%'</if>
+				<if test="dbName == 'mysql'">concat('%',#{gameName},'%')</if>
+			</if>
+		</where>
+		)b
+		ORDER BY a.assigned_date desc
