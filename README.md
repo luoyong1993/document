@@ -27,8 +27,9 @@ https://jingyan.baidu.com/article/0aa2237511ba0088cc0d64de.html</br>
 https://shimo.im/docs/WgCXhcrkWy8HVCVG</br>
 14:idea maven 配置
 https://www.cnblogs.com/Silencepeng/p/7444012.html
----------------------------------------------------------------mysql--------------------------------------------------------------</br>
- //新建用户 admin 密码为123456</br>
+---------------------------------------------------------------linux--------------------------------------------------------------</br>
+1：创建用户并授数据库权限等操作
+//新建用户 admin 密码为123456</br>
 create user admin identified by '123456';</br>
 //查看用户权限</br>
 show grants for admin;</br>
@@ -37,9 +38,27 @@ create database if not exists dbname;</br>
 //给test数据库权限赋给admin用户</br>
 GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, DROP ON `test`.* TO 'admin'@'%'</br>
 ————————————————</br>
+2：用具体ip登录mysql数据库
+mysql -P 3306 -h ipname -u username -p
+ipname 为具体的ip名称
+username为具体的登录用户名称
+3：备份数据库脚本
+mysqldump -u root -p database >database.sql
+4：防火墙添加3306端口
+　firewall-cmd --zone=public --add-port=3306/tcp --permanent
+  查看开放端口：
+  firewall-cmd --zone=public --list-ports
+
+
+
 ---------------------------------------------------------------Nginx--------------------------------------------------------------</br>
  Nginx 实战应用</br>
 https://www.jianshu.com/p/9fd8533638ad</br>
 
+---------------------------------------------------------------REDIS--------------------------------------------------------------</br>
+1:redis基本操作，基本命令
+https://www.runoob.com/redis/redis-strings.html
+2：redis服务器安装详细步骤
+https://www.cnblogs.com/happywish/p/10944253.html
 
 
