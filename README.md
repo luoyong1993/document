@@ -6,7 +6,7 @@ https://blog.csdn.net/qq_34872748/article/details/100390922</br>
 2：idea中maven项目bulid时报错</br>
 https://www.oschina.net/question/2410767_2138421</br>
 3：idea 修改jsp文件不生效问题</br>
-https://blog.csdn.net/lihefei_coder/article/details/86625324</br>
+https://www.cnblogs.com/yuchencui/p/10937789.html</br>
 4：git clone下载速度很慢的解决方法</br>
 https://blog.csdn.net/MENGHUANBEIKE/article/details/74001756?depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-1&utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-1</br>
 5：使用git将项目上传到github（最简单方法）</br>
