@@ -47,12 +47,12 @@ GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, DROP ON `test`.* TO 'admin'@'%'</b
 mysql -P 3306 -h ipname -u username -p
 ipname 为具体的ip名称
 username为具体的登录用户名称
-3：备份数据库脚本
-mysqldump -u root -p database >database.sql
-4：防火墙添加3306端口
-　firewall-cmd --zone=public --add-port=3306/tcp --permanent
-  查看开放端口：
-  firewall-cmd --zone=public --list-ports
+3：备份数据库脚本</br>
+mysqldump -u root -p database >database.sql</br>
+4：防火墙添加3306端口</br>
+　firewall-cmd --zone=public --add-port=3306/tcp --permanent</br>
+  查看开放端口：</br>
+  firewall-cmd --zone=public --list-ports</br>
 5:自己动手搭建Nexus(maven私服)</br>
 https://www.jianshu.com/p/1cfbc1518fce</br>
 
