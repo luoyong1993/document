@@ -25,8 +25,13 @@ https://blog.csdn.net/baidu_38116275/article/details/79889936 </br>
 https://jingyan.baidu.com/article/0aa2237511ba0088cc0d64de.html</br>
 12：idea激活</br>
 https://shimo.im/docs/WgCXhcrkWy8HVCVG</br>
-14:idea maven 配置
-https://www.cnblogs.com/Silencepeng/p/7444012.html
+14:idea maven 配置</br>
+https://www.cnblogs.com/Silencepeng/p/7444012.html</br>
+15：idea 修改访问项目名称</br>
+https://blog.csdn.net/weixin_30487317/article/details/98637320</br>
+16：idea 修改打war包名称</br>
+右键，rename 回车即可
+</br>
 ---------------------------------------------------------------linux--------------------------------------------------------------</br>
 1：创建用户并授数据库权限等操作
 //新建用户 admin 密码为123456</br>
