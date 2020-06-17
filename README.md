@@ -53,6 +53,8 @@ mysqldump -u root -p database >database.sql</br>
 　firewall-cmd --zone=public --add-port=3306/tcp --permanent</br>
   查看开放端口：</br>
   firewall-cmd --zone=public --list-ports</br>
+  从新载入：</br>
+  firewall-cmd --reload</br>
 5:自己动手搭建Nexus(maven私服)</br>
 https://www.jianshu.com/p/1cfbc1518fce</br>
 
