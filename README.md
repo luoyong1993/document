@@ -115,3 +115,8 @@ select a.assigned_date AS "bizDate",b.id,b.umid,b.gameName,b.logo
 		</where>
 		)b
 		ORDER BY a.assigned_date desc
+		
+		
+--------------------------------------------------------------系统相关--------------------------------------------------------------</br>
+1：https://msdn.itellyou.cn/</br>
+2：https://www.laomaotao.net/</br>
