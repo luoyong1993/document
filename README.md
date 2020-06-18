@@ -31,6 +31,9 @@ https://www.cnblogs.com/Silencepeng/p/7444012.html</br>
 https://blog.csdn.net/weixin_30487317/article/details/98637320</br>
 16：idea 修改打war包名称</br>
 右键，rename 回车即可
+17：ide常用插件
+https://juejin.im/post/5eba9a5bf265da7bca50010c
+
 </br>
 ---------------------------------------------------------------linux--------------------------------------------------------------</br>
 1：创建用户并授数据库权限等操作
