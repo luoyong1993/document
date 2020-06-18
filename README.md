@@ -123,3 +123,7 @@ select a.assigned_date AS "bizDate",b.id,b.umid,b.gameName,b.logo
 --------------------------------------------------------------其他--------------------------------------------------------------</br>
 1：PPT模板</br>
 bangongziyuan.com/ppt/</br>
+2：阿里巴巴矢量图库</br>
+https://www.iconfont.cn/</br>
+3：在线转换PDF的工具</br>
+https://smallpdf.com/cn</br>
