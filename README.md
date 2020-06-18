@@ -30,8 +30,8 @@ https://www.cnblogs.com/Silencepeng/p/7444012.html</br>
 15：idea 修改访问项目名称</br>
 https://blog.csdn.net/weixin_30487317/article/details/98637320</br>
 16：idea 修改打war包名称</br>
-右键，rename 回车即可
-17：ide常用插件
+右键，rename 回车即可</br>
+17：ide常用插件</br>
 https://juejin.im/post/5eba9a5bf265da7bca50010c
 
 </br>
