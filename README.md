@@ -37,7 +37,8 @@ https://juejin.im/post/5eba9a5bf265da7bca50010c</br>
 https://blog.csdn.net/qq_22741461/article/details/81625079</br>
 19：linux磁盘满的情况处理（清磁盘）</br>
 https://blog.csdn.net/u014520797/article/details/80840214</br>
-</br>
+20：解决catalina.out文件过大的问题</br>
+https://blog.csdn.net/GX_1_11_real/article/details/80204475</br>
 ---------------------------------------------------------------linux--------------------------------------------------------------</br>
 1：创建用户并授数据库权限等操作
 //新建用户 admin 密码为123456</br>
