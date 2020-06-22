@@ -117,6 +117,8 @@ select a.assigned_date AS "bizDate",b.id,b.umid,b.gameName,b.logo
 		</where>
 		)b
 		ORDER BY a.assigned_date desc
+2:MYSQL索引优化</br>
+https://juejin.im/post/5ec4e4a5e51d45786973b357</br>
 		
 		
 --------------------------------------------------------------系统相关--------------------------------------------------------------</br>
