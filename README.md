@@ -132,4 +132,16 @@ https://www.iconfont.cn/</br>
 3：在线转换PDF的工具</br>
 https://smallpdf.com/cn</br>
 4：二叉树红黑树算法等演示</br>
-https://www.cs.usfca.edu/~galles/visualization/source.html
+https://www.cs.usfca.edu/~galles/visualization/source.html</br>
+5:视频学习资料</br>
+https://space.bilibili.com/95256449/video</br>
+6：springIoc</br>
+https://www.zhihu.com/question/23277575/answer/169698662</br>
+7：面试突击文档</br>
+https://snailclimb.gitee.io/javaguide-interview/#/</br>
+8：Mysql优化</br>
+https://juejin.im/post/5edeedae518825432e25d2e0</br>
+9：mysql底层</br>
+https://juejin.im/post/5ef73e5b5188252e9631184e</br>
+10：hashMap面试点</br>
+https://juejin.im/post/5ef15f8ff265da02f5544215
